@@ -1,0 +1,66 @@
+/* It's Google Fonts; it's fine */
+/*noinspection CssUnknownTarget*/
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@1,700&family=Roboto&display=swap');
+
+:root {
+    --dark-gray: #0D0D0D;
+    --medium-gray: #272727;
+    --regular-gray: #595959;
+    --light-gray: #A6A6A6;
+    --off-white: #F2F2F2;
+}
+
+body {
+    background-color: var(--medium-gray);
+    text-align: center;
+}
+
+p, a {
+    font-family: roboto, serif;
+}
+
+#navbar {
+    font-family: roboto, serif;
+}
+
+h1 {
+    font-family: cantarell, serif;
+}
+
+p, h1, pre {
+    color: var(--off-white);
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--regular-gray);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: var(--off-white);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: var(--dark-gray);
+}
+
+footer {
+    background-color: var(--regular-gray);
+}
+
+footer a {
+    text-decoration: none;
+}
